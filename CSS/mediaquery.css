@@ -1,0 +1,156 @@
+  /* Medium */
+@media  screen and (min-width: 769px) {
+
+    /* chefs section width:50% */
+    #chefs .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .chefs-img{
+        width: 40%;
+    }
+    .chefs-img svg{
+        bottom: 100px;
+        left: 0;
+        padding-bottom: 40px;
+    }
+
+    /* gallery section */
+    #gallery .images {
+    columns : 2;
+}
+
+
+    /* contact section width:50%;  without the form & the map*/
+    #contact iframe{
+        width: 90%;
+        height: 350px;
+    }
+    #contact ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+     #contact ul li{
+        width: 45%;
+        margin: 10px;
+     }
+    /* 2 part in footer width:50% */
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .footer-prief{
+        width: 50%;
+    }
+    footer .footer-contact{
+        width: 50%;
+    }
+}
+
+/* Large */
+@media screen and (min-width: 993px) {
+   .container{
+        width: 100%;
+    }
+    /* header width: 50% */
+   
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .headerimg{
+        width: 40%;
+        order: 1;
+        padding-left: 30px;
+    }
+    .headerimg img{
+        width: 100%;
+    }
+    .headercontent{
+        width: 60%;
+       text-align: left;
+    }
+
+    /* chefs section width: 33.33% */
+    #chefs .container{
+        width: 90%;
+        margin: auto;
+    }
+    .chefs-img{
+        width: 30%;
+        margin-right: 5px;
+    }
+
+    /* gallery section*/
+  #gallery .images  {
+    columns: 3;
+  }
+
+    /* contact section 2 section in form width: 50%  without the form & the map*/
+    #contact .container{
+        width: 90%;
+    }
+    #contact form .width50{
+        display: flex;
+        justify-content: space-around;
+        padding: 0 35px;
+        /* width: 80%; */
+    }
+    /* #contact form .width50 input{
+         width: 50%;
+    } */
+
+    footer .container{
+        width: 90%;
+    }
+}
+
+/* X-Large */
+@media screen and (min-width: 1201px) {
+    /* nav width:33.33%;*/
+    nav .container{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        position: fixed;
+        background-color: white;
+     }
+     .navlogo{
+        width: 40%;
+        margin-left: 30px;
+     }
+     .navlinks{
+         width: 60%;
+         justify-content: space-between;
+         padding: 20px;
+     }
+     .navlinks ul{
+        display: flex;
+     }
+     .navlinks i{
+       order: -1;
+     }
+     .navlinks li{
+       padding-right: 20px;
+     }
+
+     
+
+    /* footer width:33.33%;*/
+    footer .container{
+        width: 95%;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+    }
+    footer .footer-prief , footer .footer-subscribe ,footer .footer-contact {
+        width: 20%;
+        order: -1;
+        padding: 10px;
+    }
+    footer .footer-subscribe{
+        width: 50%;
+    }
+
+}
